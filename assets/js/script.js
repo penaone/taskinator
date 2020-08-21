@@ -43,6 +43,9 @@ var createTaskEl = function(taskDataObj) {
   
   // add list item to list
   tasksToDoEl.appendChild(listItemEl);
+
+  // increase task counter for next unique id
+  taskIdCounter++;
 };
 
 formEl.addEventListener("submit", taskFormHandler);
