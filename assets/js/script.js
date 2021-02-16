@@ -76,7 +76,7 @@ var createTaskActions = function (taskId) {
 
   actionContainerEl.appendChild(statusSelectEl);
 
-  var statusChoices = ["To Do", "In Progress", "Completeed"];
+  var statusChoices = ["To Do", "In Progress", "Completed"];
   for (var i = 0; i < statusChoices.length; i++) {
     // create option element
     var statusOptionEl = document.createElement("option");

@@ -3,15 +3,15 @@
 }
 
 :root {
-  --primary: #44e9ff;
-  --secondary: #497980;
-  --tertiary: rgb(192, 246, 253);
+  --primary: #f01111;
+  --secondary: rgb(231, 231, 68);
+  --tertiary: rgb(31, 156, 194);
   --grey: #333;
   font-size: 62.5%;
 }
 
 body {
-  background: #ededed;
+  background: #c42929;
   color: var(--grey);
   margin: 0;
   padding: 0;
@@ -107,7 +107,7 @@ footer {
   color: var(--grey);
   padding: 15px 15px;
   border: 2px solid var(--grey);
-  background: var(--tertiary);
+  background: rgb(196, 196, 196);
   border-radius: 12px;
   margin-bottom: 20px;
 }
@@ -161,8 +161,8 @@ footer {
   font-size: 1.4rem;
   padding: 5px 7px;
   margin: 3px;
-  background: var(--secondary);
-  color: #fff;
+  background: #c42929;
+  color:var(--secondary);
 }
 
 .select-dropdown,
