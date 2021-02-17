@@ -5,7 +5,7 @@
 :root {
   --primary: #f01111;
   --secondary: rgb(231, 231, 68);
-  --tertiary: rgb(31, 156, 194);
+  --tertiary: rgb(20, 28, 143);
   --grey: #333;
   font-size: 62.5%;
 }
@@ -98,7 +98,7 @@ footer {
   list-style: none;
   padding: 15px;
   height: calc(100% - 50px);
-  background: rgb(196, 196, 196);
+  background: rgb(86, 104, 161);
   border-radius: 12px;
   border: 2px solid var(--grey);
 }
@@ -118,7 +118,7 @@ footer {
 }
 
 .task-type {
-  color: var(--secondary);
+  color: var(--tertiary);
   font-size: 1.55rem;
 }
 .task-actions {
