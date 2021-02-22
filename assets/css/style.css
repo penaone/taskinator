@@ -59,6 +59,10 @@ form .form-group {
   flex: 1;
 }
 
+form .form-group .school {
+  background-color: rgb(146, 146, 6);
+  color:aquamarine; 
+}
 footer {
   width: 100%;
   background: var(--secondary);
@@ -117,8 +121,20 @@ footer {
   font-size: 1.8rem;
 }
 
-.task-type {
+.task-type.school {
   color: var(--tertiary);
+  font-size: 1.55rem;
+}
+.task-type.work {
+  color: gray;
+  font-size: 1.55rem;
+}
+.task-type.personal {
+  color: rgb(67, 148, 67);
+  font-size: 1.55rem;
+}
+.task-type.cs {
+  color: rgb(201, 31, 158);
   font-size: 1.55rem;
 }
 .task-actions {
@@ -127,6 +143,7 @@ footer {
   align-items: center;
   margin: 10px 0 5px 0;
   justify-content: space-between;
+
 }
 
 .task-actions button,
